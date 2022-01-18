@@ -11,7 +11,7 @@ dotenv.config({ path: "./config.env" });
 
 app.use(helmet());
 
-const PORT = 4000;
+const PORT = 8080;
 app.use(cors());
 app.use(express.json());
 
